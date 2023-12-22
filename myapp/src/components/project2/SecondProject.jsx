@@ -2,7 +2,9 @@ import React from 'react'
 
 const SecondProject = () => {
   return (
-    <div>SecondProject</div>
+    <div>
+        <h1>this is second project start------</h1>
+    </div>
   )
 }
 
