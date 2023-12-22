@@ -13,7 +13,7 @@ const AnsAndQuestion = () => {
     }
   return (
     <div>
-        <h1>this is answers and questions project..</h1>
+        <h1>this is a reactjs answers and questions project..</h1>
         {
             data.map((item)=>{
                 return<>
