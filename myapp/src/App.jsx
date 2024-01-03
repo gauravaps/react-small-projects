@@ -3,6 +3,7 @@ import AnsAndQuestion from './components/ansandquestinproject/AnsAndQuestion'
 import RadomColor from './components/project2/RadomColor'
 import Rating from './components/ratingProject/Rating'
 import Slider from './components/sliderpic/Slider'
+import LoadImage from './components/load-More-Image/LoadImage'
 
 const App = () => {
   
@@ -11,9 +12,10 @@ const App = () => {
       {/* <AnsAndQuestion/> */}
       {/* <RadomColor/> */}
       {/* <Rating stars={10}/> */}
-      <Slider/>
+      {/* <Slider/> */}
+      <LoadImage/>
     </div>
   )
 }
- 
+  
 export default App
