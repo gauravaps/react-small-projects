@@ -7,6 +7,8 @@ import LoadImage from './components/load-More-Image/LoadImage'
 import TreeView from './components/tree-view/TreeView'
 import menus from './components/tree-view/data'
 import Testtree from './components/tree-view/Testtree'
+import QRcode from './components/Qr_code/QRCOde'
+
 
 
 
@@ -20,7 +22,9 @@ const App = () => {
       {/* <Slider/> */}
       {/* <LoadImage/> */}
       {/* <TreeView menus={menus}/>  */}
-      <Testtree/>
+      {/* <Testtree/> */}
+      <QRcode/>
+      
       
       
     </div>
