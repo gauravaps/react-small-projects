@@ -8,6 +8,8 @@ import TreeView from './components/tree-view/TreeView'
 import menus from './components/tree-view/data'
 import Testtree from './components/tree-view/Testtree'
 import QRcode from './components/Qr_code/QRCOde'
+import LIght_dark_theme from './components/light-dark-theme/LIght_dark_theme'
+import ThemeSwitcher from './components/light-dark-theme/Secondlight'
 
 
 
@@ -23,7 +25,9 @@ const App = () => {
       {/* <LoadImage/> */}
       {/* <TreeView menus={menus}/>  */}
       {/* <Testtree/> */}
-      <QRcode/>
+      {/* <QRcode/> */}
+      {/* <LIght_dark_theme/> */}
+      <ThemeSwitcher/>
       
       
       
