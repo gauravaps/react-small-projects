@@ -10,6 +10,7 @@ import Testtree from './components/tree-view/Testtree'
 import QRcode from './components/Qr_code/QRCOde'
 import LIght_dark_theme from './components/light-dark-theme/LIght_dark_theme'
 import ThemeSwitcher from './components/light-dark-theme/Secondlight'
+import Counter from './components/Redux-test/Counter'
 
 
 
@@ -27,7 +28,8 @@ const App = () => {
       {/* <Testtree/> */}
       {/* <QRcode/> */}
       {/* <LIght_dark_theme/> */}
-      <ThemeSwitcher/>
+      {/* <ThemeSwitcher/> */} 
+      <Counter/>
       
       
       
