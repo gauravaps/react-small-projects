@@ -11,6 +11,11 @@ import QRcode from './components/Qr_code/QRCOde'
 import LIght_dark_theme from './components/light-dark-theme/LIght_dark_theme'
 import ThemeSwitcher from './components/light-dark-theme/Secondlight'
 import Counter from './components/Redux-test/Counter'
+import {Routes,Route} from "react-router-dom"
+import Home from './components/AddToCart/Home'
+import Cart from './components/AddToCart/Cart'
+import Navbar from './components/AddToCart/Navbar'
+
 
 
 
@@ -29,7 +34,13 @@ const App = () => {
       {/* <QRcode/> */}
       {/* <LIght_dark_theme/> */}
       {/* <ThemeSwitcher/> */} 
-      <Counter/>
+      {/* <Counter/> */}
+      <Navbar/>
+      
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+      </Routes>
       
       
       
