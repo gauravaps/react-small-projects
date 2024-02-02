@@ -7,13 +7,14 @@ import Store2 from './components/AddToCart/Store2';
 import {BrowserRouter} from "react-router-dom"
 
 import { Provider } from 'react-redux'
+import Store3 from './components/AddToCart3/Store3';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
-    <Provider store={Store2}> 
+    <Provider store={Store3}> 
     <BrowserRouter> 
     
     

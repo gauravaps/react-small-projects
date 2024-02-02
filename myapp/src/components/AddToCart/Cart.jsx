@@ -23,7 +23,7 @@ const Cart = () => {
                     <h5>{items.price}</h5>
                     <button className='btn' onClick={()=>removeItem(items.id)}>remove Item</button>
                     </div>
-                    </div>
+                     </div>
           
         )
       })}
