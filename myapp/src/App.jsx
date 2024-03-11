@@ -19,6 +19,8 @@ import Navbar3 from './components/AddToCart3/Navbar3'
 import Cart3 from './components/AddToCart3/Cart3'
 import Home3 from './components/AddToCart3/Home3'
 import Parentpopup from './components/popupModel/Parentpopup'
+import Next from './components/light-dark-theme/Next'
+import GithubProfile from './components/gitHubprofile/GithubProfile'
 
 
 
@@ -39,13 +41,15 @@ const App = () => {
       {/* <LIght_dark_theme/> */}
       {/* <ThemeSwitcher/> */} 
       {/* <Counter/> */}
-      <Parentpopup/>
+      {/* <Parentpopup/> */}
     
 {/*       
       <Routes>
         <Route path='/' element={<Home3/>}/>
         <Route path='/cart' element={<Cart3/>}/>
       </Routes> */}
+      {/* <Next/> */}
+      <GithubProfile/>
       
       
       

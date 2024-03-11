@@ -17,9 +17,9 @@ const ThemeSwitcher = () => {
 
   // Effect to set the initial theme based on local storage
 //   useEffect(() => {
-//     const savedTheme = localStorage.getItem('themenew');
-//     setIsDarkTheme(savedTheme === 'dark');
-//   }, []);
+  //   const savedTheme = localStorage.getItem('themenew');
+    // setIsDarkTheme(savedTheme === 'dark');
+  //}, []);
 
   return (
     <div style={{ background: isDarkTheme ? '#000' : '#fff', color: isDarkTheme ? '#fff' : '#000',
